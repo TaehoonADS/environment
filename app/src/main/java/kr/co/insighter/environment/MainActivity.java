@@ -12,4 +12,10 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
         Log.d("t", "test");
     }
+
+    @Override
+    protected  void onStart(){
+        super.onStart();
+        Log.d("t", "onStart");
+    }
 }
